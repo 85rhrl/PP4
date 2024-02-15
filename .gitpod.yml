@@ -15,3 +15,4 @@ vscode:
     - ms-toolsai.jupyter-keymap
     - ms-toolsai.jupyter-renderers
     - charliermarsh.ruff
+    - ms-toolsai.vscode-jupyter-slideshow
