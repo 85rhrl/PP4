@@ -48,3 +48,12 @@ class Comment(models.Model):
 
     def __str__(self):
         return f"Comment {self.body} by {self.author}"
+
+class Tag(models.Model):
+    """
+    Defines a tag (category) object
+    """
+    tagname = models.CharField(max_length=80)
+
+    def __str__(self):
+        return self.tagname
