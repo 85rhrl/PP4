@@ -7,6 +7,17 @@ STATUS = ((0, "Draft"), (1, "Published"))
 
 
 # Create your models here.
+class Tag(models.Model):
+    """
+    Defines a tag (category) object
+    """
+    TAGNAME = ((0, "General"), (1, "Family"), (2, "Friends"), (3, "Trips"))
+    tagname = models.IntegerField(choices=TAGNAME, default=0)
+
+    def __str__(self):
+        return self.tagname
+
+
 class Post(models.Model):
     """
     Stores a single blog post entry related to :model:`auth.User`.
@@ -15,6 +26,9 @@ class Post(models.Model):
     slug = models.SlugField(max_length=200, unique=True)
     author = models.ForeignKey(
         User, on_delete=models.CASCADE, related_name="blog_posts"
+    )
+    category = models.ForeignKey(
+        Tag, on_delete=models.CASCADE, default=0
     )
     featured_image = CloudinaryField('image', default='placeholder')
     content = models.TextField()
@@ -48,12 +62,3 @@ class Comment(models.Model):
 
     def __str__(self):
         return f"Comment {self.body} by {self.author}"
-
-class Tag(models.Model):
-    """
-    Defines a tag (category) object
-    """
-    tagname = models.CharField(max_length=80)
-
-    def __str__(self):
-        return self.tagname
