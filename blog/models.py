@@ -11,8 +11,8 @@ class Tag(models.Model):
     """
     Defines a tag (category) object
     """
-    TAGNAME = ((0, "General"), (1, "Family"), (2, "Friends"), (3, "Trips"))
-    tagname = models.IntegerField(choices=TAGNAME, default=0)
+    TAGNAME = (("general", "General"), ("family", "Family"), ("friends", "Friends"), ("trips", "Trips"))
+    tagname = models.CharField(choices=TAGNAME, default="general")
 
     def __str__(self):
         return self.tagname
@@ -28,7 +28,7 @@ class Post(models.Model):
         User, on_delete=models.CASCADE, related_name="blog_posts"
     )
     category = models.ForeignKey(
-        Tag, on_delete=models.CASCADE, default=0
+        Tag, on_delete=models.CASCADE, default="general"
     )
     featured_image = CloudinaryField('image', default='placeholder')
     content = models.TextField()
