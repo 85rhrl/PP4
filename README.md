@@ -99,3 +99,11 @@ Visit the deployed Roberto's Blog here: [https://pp4-85rhrl-0aee24205305.herokua
 
 Lighthouse is an open-source automated tool to audit a page based on its Performance, Accessibility, Best Practices and Search Engine Optimization (SEO). This audit was performed and the results are shown below.
     ![lighthouse-desktop-index](docs/images/12lighthouse.png)
+
+### Unfixed Bugs
+
+When running the W3C Markup Validator on a blog post, the following error is shown:
+    ![HTML checker](docs/images/13bugreport.png)
+But after checking the code, the starting p element is present in the code as shown here:
+    ![HTML code](docs/images/14bugcode.png)
+
