@@ -27,3 +27,7 @@ Visit the deployed Roberto's Blog here: [https://pp4-85rhrl-0aee24205305.herokua
     - Below the blog posts the PREV and NEXT links are displayed to see more blog posts.
 
     ![Blog Posts](docs/images/04blog-posts.png)
+
+- __Footer__
+    - At the bottom of the page a link to the source code is displayed and can be seen in the image above.
+
