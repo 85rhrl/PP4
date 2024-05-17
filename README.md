@@ -90,7 +90,12 @@ Visit the deployed Roberto's Blog here: [https://pp4-85rhrl-0aee24205305.herokua
 
 - __JavaScript__
     - The JavaScript for comments.js code was tested using the JSHint static code analysis tool and no errors were found.
-            ![CSS checker](docs/images/11jschecker.png)
+            ![JS checker](docs/images/11jschecker.png)
 
 - __Python__
     - The code was passed through the Code Institute's PEP8 Python Linter with no errors found.
+
+### Lighthouse
+
+Lighthouse is an open-source automated tool to audit a page based on its Performance, Accessibility, Best Practices and Search Engine Optimization (SEO). This audit was performed and the results are shown below.
+    ![lighthouse-desktop-index](docs/images/12lighthouse.png)
