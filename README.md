@@ -45,3 +45,8 @@ Visit the deployed Roberto's Blog here: [https://pp4-85rhrl-0aee24205305.herokua
     - The last update is displayed on the bottom right hand corner.
 
     ![About me](docs/images/06aboutme.png)
+
+- __Contact__
+    - A form to contact Roberto is displayed below About me.
+
+    ![Contact](docs/images/07contact.png)
