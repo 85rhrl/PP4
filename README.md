@@ -55,3 +55,7 @@ Visit the deployed Roberto's Blog here: [https://pp4-85rhrl-0aee24205305.herokua
     - To be able to comment on posts, the blog visitor must create an account.
 
     ![Sign up](docs/images/08signup.png)
+
+### Features Left to Implement
+
+- __Send an email to registered users whenever there is a new blog post.__
