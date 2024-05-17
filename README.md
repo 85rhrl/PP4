@@ -39,3 +39,9 @@ Visit the deployed Roberto's Blog here: [https://pp4-85rhrl-0aee24205305.herokua
     - For logged in users, a text box is displayed on the right hand side to post a comment.
 
     ![Blog post](docs/images/05post-detail.png)
+
+- __About me__
+    - Information about Roberto can be found in About me & Contact page.
+    - The last update is displayed on the bottom right hand corner.
+
+    ![About me](docs/images/06aboutme.png)
