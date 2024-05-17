@@ -16,3 +16,8 @@ Visit the deployed Roberto's Blog here: [https://pp4-85rhrl-0aee24205305.herokua
     - The Home, About Me & Contact, Login or Register & Login links will turn bold font whenever clicked to let the user know in which page they currently are.
 
     ![Navigation Bar](docs/images/01navbar.png)
+
+- __Home page__
+    - In the home page the user will find a hero image with a list of blog posts below.
+
+    ![Home Page](docs/images/03homepage.png)
