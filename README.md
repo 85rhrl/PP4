@@ -75,3 +75,22 @@ Visit the deployed Roberto's Blog here: [https://pp4-85rhrl-0aee24205305.herokua
 - __Django__ - Used as the python framework.
 - __ElephantSQL__ - Used as the database for this project.
 - __Bootstrap__ - Used as the CSS framework.
+
+## Testing
+
+### Validator testing
+
+- __HTML__
+    - The HTML code was tested using the W3C Markup Validator and no errors were found.
+            ![HTML checker](docs/images/09htmlchecker.png)
+
+- __CSS__
+    - The CSS code was tested using the CSS Validation Service and no errors were found.
+            ![CSS checker](docs/images/10csschecker.png)
+
+- __JavaScript__
+    - The JavaScript for comments.js code was tested using the JSHint static code analysis tool and no errors were found.
+            ![CSS checker](docs/images/11jschecker.png)
+
+- __Python__
+    - The code was passed through the Code Institute's PEP8 Python Linter with no errors found.
