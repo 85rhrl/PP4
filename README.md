@@ -21,3 +21,9 @@ Visit the deployed Roberto's Blog here: [https://pp4-85rhrl-0aee24205305.herokua
     - In the home page the user will find a hero image with a list of blog posts below.
 
     ![Home Page](docs/images/03homepage.png)
+
+- __Blog posts list & Page navigation links__
+    - The blog posts are displayed either in a horizontal or vertical manner depending of the used device.
+    - Below the blog posts the PREV and NEXT links are displayed to see more blog posts.
+
+    ![Blog Posts](docs/images/04blog-posts.png)
