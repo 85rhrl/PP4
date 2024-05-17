@@ -59,3 +59,19 @@ Visit the deployed Roberto's Blog here: [https://pp4-85rhrl-0aee24205305.herokua
 ### Features Left to Implement
 
 - __Send an email to registered users whenever there is a new blog post.__
+
+## Technologies used
+
+### Languages
+- __Python__
+- __HTML5__
+- __JavaScript__
+- __CSS3__
+
+### Tools & Frameworks
+- __GitHub__ - Used for version control, bug reporting and hosting the repository.
+- __Heroku__ - Used for deploying the website.
+- __Cloudinary__ - Used for storing the images.
+- __Django__ - Used as the python framework.
+- __ElephantSQL__ - Used as the database for this project.
+- __Bootstrap__ - Used as the CSS framework.
