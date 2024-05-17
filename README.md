@@ -50,3 +50,8 @@ Visit the deployed Roberto's Blog here: [https://pp4-85rhrl-0aee24205305.herokua
     - A form to contact Roberto is displayed below About me.
 
     ![Contact](docs/images/07contact.png)
+
+- __Account registration__
+    - To be able to comment on posts, the blog visitor must create an account.
+
+    ![Sign up](docs/images/08signup.png)
