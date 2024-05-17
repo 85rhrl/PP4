@@ -31,3 +31,11 @@ Visit the deployed Roberto's Blog here: [https://pp4-85rhrl-0aee24205305.herokua
 - __Footer__
     - At the bottom of the page a link to the source code is displayed and can be seen in the image above.
 
+- __Blog post__
+    - A blog post header contains the title, author, category, creation date and image.
+    - Below the header the content of the blog post is displayed.
+    - After the blog's content an chat icon is displayed with the number of approved comments.
+    - Finally the list of comments are displayed.
+    - For logged in users, a text box is displayed on the right hand side to post a comment.
+
+    ![Blog post](docs/images/05post-detail.png)
