@@ -107,3 +107,37 @@ When running the W3C Markup Validator on a blog post, the following error is sho
 But after checking the code, the starting p element is present in the code as shown here:
     ![HTML code](docs/images/14bugcode.png)
 
+## Deployment
+GitHub, Cloudinary, ElephantSQL and Heroku were used to deploy Roberto's Blog:
+
+1. Fork or clone the [github.com/85rhrl/PP4](https://github.com/85rhrl/PP4) repository.
+2. Create an account with Cloudinary [cloudinary.com/users/register_free](https://cloudinary.com/users/register_free) and take note of the _API environment variable_ found in _Dashboard_
+3. Create an account with ElephantSQL and create an instance for a database: [customer.elephantsql.com/instance/create](https://customer.elephantsql.com/instance/create) and take note of the URL in _Details_.
+
+4. Create a new [Heroku](https://www.heroku.com/) app with a unique name.
+5. From the _Settings_ tab in Heroku click on Reveal Config Vars:
+    - Create a _Config Var_ called `CLOUDINARY_URL` and set it to the URL from step 2.
+    - Create a _Config Var_ called `DATABASE_URL` and set it to the URL from step 3.
+    - Create a _Config Var_ called `SECRET_KEY` and set it to a generated password of your choice.
+6. Under Buildpacks add the `heroku/python` buildpack.
+7. Connect the Heroku app to the repository from Step 1.
+8. On your IDE of preference:
+    - Add a env.py on the root with the following:
+        - os.environ.setdefault("DATABASE_URL", "URL from step 3")
+        - os.environ.setdefault("SECRET_KEY", "Generated password from step 5")
+        - os.environ.setdefault("CLOUDINARY_URL", "URL from step 2")
+
+    - Add env.py to .gitignore to avoid sharing this file
+    - Create a Procfile on the root with the following content:
+        - web: gunicorn yourprojectname.wsgi
+    - On the setings.py file of the project's folder:
+        - import Path from pathlib, import os, import sys and import dj_database_url
+        - SECRET_KEY = os.environ.get("SECRET_KEY")
+        - if os.path.isfile("env.py"): import env
+        - Set DEBUG = False
+        - Set ALLOWED_HOSTS = ['gitpod.io link for local deployment'
+                ,'.herokuapp.com for cloud deployment']
+        - DATABASES = {'default': dj_database_url.parse(os.environ.get("DATABASE_URL"))}
+    - Make migrations and migrate
+    - Commit and push to GitHub
+9. On Heroku under Deploy tab click on _Deploy_
