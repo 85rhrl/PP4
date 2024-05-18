@@ -141,3 +141,21 @@ GitHub, Cloudinary, ElephantSQL and Heroku were used to deploy Roberto's Blog:
     - Make migrations and migrate
     - Commit and push to GitHub
 9. On Heroku under Deploy tab click on _Deploy_
+
+## Credits
+The code is based on the "I Think Therefore I Blog" walkthrough tutorial made by Code Institute.
+
+The font was downloaded from [Google Fonts](https://fonts.google.com/).
+
+### Media
+
+The images were downloaded from [Pexels](https://www.pexels.com/).
+
+### Acknowledgements
+
+I would like to express my gratitude to the following people:
+
+- Jubril Akolade for mentoring me, giving me guidance and encouragement.
+- Kay Welfare for their continuous help and encouragement.
+- My fellow classmates for their support and feedback.
+- Last but not least to my lovely wife for taking care of our newborn baby and our daughter.
