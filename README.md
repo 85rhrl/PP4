@@ -149,6 +149,10 @@ Visit the deployed Roberto's Blog here: [https://pp4-85rhrl-0aee24205305.herokua
 - __Python__
     - The code was passed through the Code Institute's PEP8 Python Linter with no errors found.
 
+### Manual testing
+
+![Manual testing](docs/images/16manualtesting.png)
+
 ### Lighthouse
 
 Lighthouse is an open-source automated tool to audit a page based on its Performance, Accessibility, Best Practices and Search Engine Optimization (SEO). This audit was performed and the results are shown below.
