@@ -3,6 +3,60 @@ Roberto's Blog is a website where you can find out what Roberto is doing at the 
 
 Visit the deployed Roberto's Blog here: [https://pp4-85rhrl-0aee24205305.herokuapp.com/](https://pp4-85rhrl-0aee24205305.herokuapp.com/)
 
+## Agile methodology
+
+- __GitHub Projects__
+    - GitHub projects is used as an Agile tool to manage the planning and implementation of the project.
+    It is also used to keep track of the user stories and can be seen here: [https://github.com/users/85rhrl/projects/1](https://github.com/users/85rhrl/projects/1)
+
+    ![User stories](docs/images/15userstories.png)
+
+- __User Stories__
+    
+    - View paginated list of posts
+        - AC1 - Given more than one post in the database, these multiple posts are listed.
+        - AC2 - When a user opens the main page a list of posts is seen.
+        - AC3 - Then the user sees all post titles with pagination to choose what to read.
+
+    - Open a post: As a Site User, I can click on a post so that I can read the full text.
+        - AC1 When a blog post title is clicked on a detailed view of the post is seen.
+
+    - View comments: As a Site User / Admin I can view comments on an individual post so that I can read the conversation
+        - AC1 Given one or more user comments the admin can view them.
+        - AC2 Then a site user can click on the comment thread to read the conversation.
+
+    - Account registration: As a Site User I can register an account so that I can comment on a post.
+        - AC1 Given an email a user can register an account.
+        - AC2 Then the user can log in.
+        - AC3 When the user is logged in they can comment.
+
+    - Comment on a post: As a Site User I can leave comments on a post so that I can be involved in the conversation
+        - AC1 When a user comment is approved
+        - AC2 Then a user can reply
+        - AC3 Given more than one comment then there is a conversation thread
+
+    - Modify or delete comment on a post: As a Site User I can modify or delete my comment on a post so that I can be involved in the conversation
+        - AC1 Given a logged in user, they can modify their comment
+        - AC2 Given a logged in user, they can delete their comment
+
+    - Manage posts: As a Site Admin I can create, read, update and delete posts so that I can manage my blog content
+        - AC1 Given a logged in user, they can create a blog post
+        - AC2 Given a logged in user, they can read a blog post
+        - AC3 Given a logged in user, they can update a blog post
+        - AC4 Given a logged in user, they can delete a blog post
+
+    - Create drafts: As a Site Admin I can create draft posts so that I can finish writing the content later
+        - AC1 Given a logged in user, they can save a draft blog post
+        - AC2 Then they can finish the content at a later time
+
+    - Approve comments: As a Site Admin I can approve or disapprove comments so that I can filter out objectionable comments
+        - AC1 Given a logged in user, they can approve a comment
+        - AC2 Given a logged in user, they can disapprove a comment
+    
+    - Assign a category to a blog post
+        - AC1 When creating a blog post, the Site Admin can assign a category to it
+        - AC2 When updating a blog post, the Site Admin can update the category
+    
 ## Features
 
 ### Existing Features
