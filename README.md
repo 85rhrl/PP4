@@ -3,6 +3,12 @@ Roberto's Blog is a website where you can find out what Roberto is doing at the 
 
 Visit the deployed Roberto's Blog here: [https://pp4-85rhrl-0aee24205305.herokuapp.com/](https://pp4-85rhrl-0aee24205305.herokuapp.com/)
 
+## Design
+
+Design mockups were created for the Homepage and a Blog Post as seen below.
+![Mockup Homepage](docs/images/17mockup-homepage.png)
+![Mockup Blog Post](docs/images/18mockup-blogpost.png)
+
 ## Agile methodology
 
 - __GitHub Projects__
