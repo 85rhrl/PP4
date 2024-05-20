@@ -6,7 +6,11 @@ Visit the deployed Roberto's Blog here: [https://pp4-85rhrl-0aee24205305.herokua
 ## Design
 
 Design mockups were created for the Homepage and a Blog Post as seen below.
+
+Homepage
 ![Mockup Homepage](docs/images/17mockup-homepage.png)
+
+Blog Post
 ![Mockup Blog Post](docs/images/18mockup-blogpost.png)
 
 ## Agile methodology
