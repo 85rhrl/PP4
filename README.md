@@ -132,6 +132,12 @@ Visit the deployed Roberto's Blog here: [https://pp4-85rhrl-0aee24205305.herokua
 
 ## Testing
 
+### Responsiveness testing
+
+Roberto's Blog responsiveness was tested usign [https://www.browserstack.com/responsive](https://www.browserstack.com/responsive), the homepage can be seen in the following images.
+    ![Responsiveness iPhone X](docs/images/16respon-iphonex.png)
+    ![Responsiveness iPad](docs/images/16respon-ipad.png)
+
 ### Validator testing
 
 - __HTML__
